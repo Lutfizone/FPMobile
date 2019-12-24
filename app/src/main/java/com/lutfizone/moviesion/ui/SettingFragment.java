@@ -27,6 +27,18 @@ public class SettingFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         Button btnChangeLanguage = view.findViewById(R.id.btnLanguage);
+        Button btnexit = view.findViewById(R.id.btnexit);
+
+        btnexit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+                System.exit(0);
+            }
+
+            private void finish() {
+            }
+        });
         btnChangeLanguage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
