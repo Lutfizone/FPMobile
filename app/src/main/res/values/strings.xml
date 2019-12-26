@@ -13,4 +13,7 @@
     <string name="setting">Setting</string>
     <string name="tab1">Movie</string>
     <string name="tab2">Tv Show</string>
+    <string name="content_title">ATENTION!!!</string>
+    <string name="content_text">Dont forget to update new Movie</string>
+    <string name="subtext">information movie update </string>
 </resources>

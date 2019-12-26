@@ -14,4 +14,7 @@
     <string name="setting">Pengaturan</string>
     <string name="tab1">Film Favorit</string>
     <string name="tab2">Acara Tv Favorit</string>
+    <string name="content_title">PENGUMUMAN!!!</string>
+    <string name="content_text">Jangan Lupa Cek Film Terbaru</string>
+    <string name="subtext">Info Film terbaru sudah tayang</string>
 </resources>
