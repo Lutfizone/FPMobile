@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     public static final int NOTIFICATION_ID = 1;
     public static String CHANNEL_ID = "Moviesion";
     public static CharSequence CHANNEL_NAME = "Mobilechannel";
+    private PreferenceLogin login;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -98,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
 
@@ -121,4 +123,6 @@ public class MainActivity extends AppCompatActivity {
         }
         return false;
     }
+
+
 }

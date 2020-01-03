@@ -9,18 +9,24 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class SpalshScreenActivity extends AppCompatActivity {
     private static int SPLASH_TIME_OUT = 2500;
+    private PreferenceLogin login;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splashscreen);
+        login = PreferenceLogin.getInstance(getApplicationContext());
 
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(SpalshScreenActivity.this, MainActivity.class);
-                startActivity(intent);
-                finish();
+                if (login.isLogin()) {
+                    Intent intent = new Intent(SpalshScreenActivity.this, MainActivity.class);
+                    startActivity(intent);
+                    finish();
+                } else {
+                    startActivity(new Intent(SpalshScreenActivity.this, LoginActivity.class));
+                }
             }
         }, SPLASH_TIME_OUT);
     }

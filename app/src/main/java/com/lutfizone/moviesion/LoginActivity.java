@@ -51,9 +51,9 @@ public class LoginActivity extends BaseActivity {
             String nim = etNim.getText().toString();
             String pass = etPass.getText().toString();
             // pengecekan nama dan nim
-            if ((nim.equals("17.12.0210")
-                    || nim.equals("17.12.0216")
-                    || nim.equals("17.12.0228"))
+            if ((nim.equals("17.11.0953")
+                    || nim.equals("17.11.0937")
+                    || nim.equals("17.11.0972"))
                     && pass.equals("123456")) {
                 // set login
                 login.setLogin(true);
