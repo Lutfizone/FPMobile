@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/default_dimens"
         android:background="@drawable/rounded_rect_white"
-        android:text="EXIT" />
+        android:text="@string/exit" />
 
 
 

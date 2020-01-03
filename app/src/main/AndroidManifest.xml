@@ -17,6 +17,7 @@
         <activity android:name=".ui.detail.DetailActivity"></activity>
         <activity android:name=".MainActivity"/>
         <activity android:name=".SpalshScreenActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
