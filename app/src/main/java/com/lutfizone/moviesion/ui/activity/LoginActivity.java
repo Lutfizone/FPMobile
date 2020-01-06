@@ -1,4 +1,4 @@
-package com.lutfizone.moviesion;
+package com.lutfizone.moviesion.ui.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.lutfizone.moviesion.PreferenceLogin;
+import com.lutfizone.moviesion.R;
 import com.lutfizone.moviesion.base.BaseActivity;
 
 public class LoginActivity extends BaseActivity {

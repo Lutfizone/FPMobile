@@ -1,4 +1,4 @@
-package com.lutfizone.moviesion;
+package com.lutfizone.moviesion.ui.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NotificationCompat;
@@ -17,6 +17,8 @@ import android.widget.Toast;
 
 import com.gauravk.bubblenavigation.BubbleNavigationConstraintView;
 import com.gauravk.bubblenavigation.listener.BubbleNavigationChangeListener;
+import com.lutfizone.moviesion.PreferenceLogin;
+import com.lutfizone.moviesion.R;
 import com.lutfizone.moviesion.ui.FavoriteFragment;
 import com.lutfizone.moviesion.ui.SettingFragment;
 import com.lutfizone.moviesion.ui.movie.MovieFragment;

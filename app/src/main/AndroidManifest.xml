@@ -17,11 +17,11 @@
         <activity
             android:name=".ui.detail.DetailActivity"></activity>
         <activity
-            android:name=".MainActivity"/>
+            android:name=".ui.activity.MainActivity"/>
         <activity
-            android:name=".LoginActivity"
+            android:name=".ui.activity.LoginActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".SpalshScreenActivity">
+        <activity android:name=".ui.activity.SpalshScreenActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

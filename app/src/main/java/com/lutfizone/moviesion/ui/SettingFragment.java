@@ -13,8 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.lutfizone.moviesion.LoginActivity;
-import com.lutfizone.moviesion.MainActivity;
+import com.lutfizone.moviesion.ui.activity.LoginActivity;
 import com.lutfizone.moviesion.PreferenceLogin;
 import com.lutfizone.moviesion.R;
 

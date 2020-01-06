@@ -10,13 +10,22 @@
     android:layout_marginRight="@dimen/space_extra"
     android:gravity="center"
     android:fitsSystemWindows="true"
-    tools:context=".LoginActivity">
+    tools:context=".ui.activity.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="225dp"
+        android:layout_height="266dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="@dimen/text_title"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/red_inactive"
         android:textStyle="bold"
         android:fitsSystemWindows="true"
         android:layout_marginBottom="@dimen/space_large"
