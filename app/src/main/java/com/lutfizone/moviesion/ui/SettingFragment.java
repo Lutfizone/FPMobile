@@ -7,11 +7,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.lutfizone.moviesion.LoginActivity;
+import com.lutfizone.moviesion.MainActivity;
+import com.lutfizone.moviesion.PreferenceLogin;
 import com.lutfizone.moviesion.R;
 
 public class SettingFragment extends Fragment {
@@ -46,6 +50,19 @@ public class SettingFragment extends Fragment {
                 startActivity(change);
             }
         });
+
+        onButtonLogoutClick(view);
+    }
+
+    private void onButtonLogoutClick(View view) {
+
+        view.findViewById(R.id.btnlogout).setOnClickListener(v -> {
+            PreferenceLogin.getInstance(getActivity()).setLogin(false);
+            startActivity(new Intent(getActivity(), LoginActivity.class));
+            getActivity().finish();
+            Toast.makeText(getActivity(), "Logout", Toast.LENGTH_SHORT).show();
+        });
+
     }
 }
 

@@ -8,7 +8,7 @@ import android.view.WindowManager;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class SpalshScreenActivity extends AppCompatActivity {
-    private static int SPLASH_TIME_OUT = 2500;
+    private static int SPLASH_TIME_OUT = 2000;
     private PreferenceLogin login;
 
     @Override
